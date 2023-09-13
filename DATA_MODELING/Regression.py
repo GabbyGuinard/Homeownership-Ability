@@ -1,7 +1,6 @@
 
 import pandas as pd
 import numpy as np
-import datetime as dt
 from sklearn.linear_model import LinearRegression
 import statsmodels.api as sm
 
@@ -60,4 +59,6 @@ for a in range(2987):
 # APEENDS YEARS 2019-2021 INFORMATION
 df = df.rename(columns= {'county_name': 'location', 'income_needed_actual_perc_diff': 'pred'})
 final_df = df._append(model_df)
+
+# EXPORTS PREDICTIONS AS CSV
 final_df.to_csv('predictions', index=False, encoding='utf-8', sep= ';')
