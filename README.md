@@ -2,11 +2,10 @@
 ---
 <p align="center">
   <a href="#Objective">Objective</a> •
-  <a href="#About&nbsp;the&nbsp;Dataset">About&nbsp;the&nbsp;Dataset</a> •
+  <a href="#About%20the%20Dataset">About the Dataset</a> •
   <a href="#Repository Directories">Repository Directories</a> •
   <a href="#Analysis Steps">Analysis Steps</a> •
   <a href="#Results">Results</a> •
-  <a href="#License">License</a>
 </p>
 
 ## Objective
