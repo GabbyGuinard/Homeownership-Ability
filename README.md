@@ -41,6 +41,33 @@ Two datasets were utilized for this analysis.
   - Contains two files:
     1. [Regression.py](regression): Python file containing code that is used to create grouped regression model to predict housing affordability up to 2030.
     2. [predictions.csv](predictions): CSV containing dataset that contains U.S. counties with their predictions from the regression model.
+
+#### DATA VISUALIZATION
+  - Contains markdown file with screenshot and link to Power BI interactive dashboard
+
+
+## Analysis Steps
+![Proj_steps][proj_steps]
+
+#### Step 1: Identify Goal
+  -
+
+#### Step 2: Obtain Data
+  - Two datasets aquired from Realtor.com and BEA website.
+
+#### Step 3: Clean/ Transform Data
+  - This was done using MySQL Workbench. I wrote queries to :
+    - remove missing data
+    - generate new columns (either by using mathematical formulas or manipulating strings)
+    - reformat existing columns
+
+#### Step 4: Data Modeling
+  - I wrote python scripts in Virtual Studio Code to generate a grouped regression model that predicts the average percent difference between average income and the income required to afford a home for each county by year up to the year 2030.
+
+#### Step 5: Data Visualization
+  - Power BI was used to create an interactive dashboard to visualize and describe key insights and trends identified by step 3 and 4.
+
+
      
   
 
@@ -68,6 +95,7 @@ Two datasets were utilized for this analysis.
 
   <!-- Image Links -->
 [Header_icon]: RESOURCES/readmee_icon.jpg
+[proj_steps]: RESOURCES/analysis_steps.jpg
 
 <!-- External Links -->
 [dashboard_link]: https://app.powerbi.com/view?r=eyJrIjoiNGY1MGI1MGUtMTEwZC00ZTI2LWIyYjctMGFmODRmZjc2ZDljIiwidCI6ImI1ZWI4OTAyLWRlNTctNGUyZS05YTUxLTI0MWNhZmFiYTE0NCJ9
