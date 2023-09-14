@@ -70,10 +70,12 @@ Two datasets were utilized for this analysis.
 
 
 ## Results
-- The U.S. tends to be more affordable (in terms of income vs. home price) as you move further inland.
+- The U.S. tends to be more affordable in terms of income vs. home price as you move further inland.
 - As the years go on, more and more counties' incomes are not keeping up with the inflation of home sales prices.
-- The percent difference between average income and the income needed to afford a home is trending towards below zero (average < needed income) as we look towards the future. This is already the reality for most coastal and western counties.
-- As of 2021, the average income from all U.S. counties were enough to buy a home (based on median U.S. home price). However, this varies widely across counties in the U.S.
+- The percent difference between average income and the income needed to afford a home is beginning to trend towards negative values (average income < needed income). This is already the reality for most coastal and western counties.
+- As of 2021, the average income for the whole country was enough to buy a home. However, this varies widely across counties in the U.S.
+
+Click on the screenshot below to access interactive version of dashboard:
 [![dashboard_img]][dashboard_link]
 
 ## License
