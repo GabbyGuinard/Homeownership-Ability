@@ -10,17 +10,18 @@
 </p>
 
 ## Objective
+- This report seeks to understand the severity of the housing crisis in the U.S. It uses income and home price data to derive insights and identify trends that showcase significant obsticles many Americans face in their pursuit of homeownership.
 
 ## About the Datasets
-Two datasets were utilized for this analysis.
-  1. County Income
-     - This dataset was aquired from the U.S Beurau of Economic Analysis (BEA) webpage. It contains median incomes for the years 2019, 2020, and 2021 per county across the U.S.
-     - Access the webpage [here.](income_data_link)
-     - View the dataset [here.](income_fixed)
-  3. County Sales
-     - This dataset was aquired from the realter.com data library webpage.
-     - Access the webpage [here.](sales_data_link)
-     - View the dataset here.
+- Two datasets were utilized for this analysis.
+    1. County Income
+       - This dataset was aquired from the U.S Beurau of Economic Analysis (BEA) webpage. It contains median incomes for the years 2019, 2020, and 2021 per county across the U.S.
+       - Access the webpage [here.](income_data_link)
+       - View the dataset [here.](income_fixed)
+    3. County Sales
+       - This dataset was aquired from the realter.com data library webpage.
+       - Access the webpage [here.](sales_data_link)
+       - View the dataset here.
     
 ## Repository Directories
 
@@ -50,8 +51,8 @@ Two datasets were utilized for this analysis.
 ## Analysis Steps
 ![Proj_steps][proj_steps]
 
-#### Step 1: Identify Goal
-  -
+#### Step 1: Identify Goal/ Question
+  - Question: Is homeownership still a reasonable goal in the U.S?
 
 #### Step 2: Obtain Data
   - Two datasets aquired from Realtor.com and BEA website.
@@ -73,7 +74,6 @@ Two datasets were utilized for this analysis.
 - The U.S. tends to be more affordable in terms of income vs. home price as you move further inland.
 - As the years go on, more and more counties' incomes are not keeping up with the inflation of home sales prices.
 - The percent difference between average income and the income needed to afford a home is beginning to trend towards negative values (average income < needed income). This is already the reality for most coastal and western counties.
-- As of 2021, the average income for the whole country was enough to buy a home. However, this varies widely across counties in the U.S.
 
 Click on the screenshot below to access interactive version of dashboard:
 [![dashboard_img]][dashboard_link]
