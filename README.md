@@ -56,12 +56,14 @@
 
 #### Step 2: Obtain Data
   - Two datasets aquired from Realtor.com and BEA website.
+  - Find in *INITIAL_DATA* directory
 
 #### Step 3: Clean/ Transform Data
   - This was done using MySQL Workbench. I wrote queries to :
     - remove missing data
     - generate new columns (either by using mathematical formulas or manipulating strings)
     - reformat existing columns
+  - Shown in *DATA_CLEANING* directory
 
 #### Step 4: Data Modeling
   - I wrote python scripts in Virtual Studio Code to generate a grouped regression model that predicts the average percent difference between average income and the income required to afford a home for each county by year up to the year 2030.
