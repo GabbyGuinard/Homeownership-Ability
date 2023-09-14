@@ -26,8 +26,8 @@
 ## Directories
 
 #### INITIAL_DATA
-- Contains the two datasets that were used for analysis in csv format: [county_income][income.fixed] and [county_sales][sales_initial].
-- The county_income data set has two versions: the first is [county_income_OG.csv][income.OG], which is in its original form as directly downloaded from BEA. The Second is [county_income_fixed_cols.csv][income_fixed], which has the same data but the header has been edited to allow easier import into sql database.
+- Contains the two datasets that were used for analysis in csv format: [county_income][income_fixed] and [county_sales][sales_initial].
+- The county_income data set has two versions: the first is [county_income_OG.csv][income_OG], which is in its original form as directly downloaded from BEA. The Second is [county_income_fixed_cols.csv][income_fixed], which has the same data but the header has been edited to allow easier import into sql database.
   
 #### DATA_CLEANING
 - Contains two sql files:
