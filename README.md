@@ -32,7 +32,7 @@
 #### DATA_CLEANING
 - Contains two sql files:
   1. [incomecode.sql][incomecode]: Shows the SQL code used to clean and transform the [County Income][income_fixed] dataset.
-  2. [countysalescode.sql][salescode]: Shows the SQL code used to clean and transform the County Sales dataset.
+  2. [countysalescode.sql][salescode]: Shows the SQL code used to clean and transform the [County Sales][sales_initial] dataset.
  
 #### FINAL_DATA
   - Contains two data sets
