@@ -10,7 +10,7 @@
 </p>
 
 ## Objective
-- This report seeks to understand the severity of the housing crisis in the U.S. It uses income and home price data to derive insights and identify trends that showcase significant obsticles many Americans face in their pursuit of homeownership.
+- This report seeks to understand the severity of the housing crisis in the U.S. It uses income and home price data to derive insights and identify trends that showcase significant obsticles that many Americans face in their pursuit of homeownership.
 
 
 ## Dataset
@@ -20,7 +20,7 @@
        - Access the webpage [here.][income_data_link]
        - View the dataset [here.][income_fixed]
     3. County Sales
-       - This dataset was aquired from the realter.com data library webpage.
+       - This dataset was aquired from the realter.com data library webpage. It contains various data points related to selling homes (including median listing price) for each U.S. county.
        - Access the webpage [here.][sales_data_link]
        - View the dataset [here.][sales_initial]
 
@@ -42,7 +42,7 @@
    
 #### DATA_MINING
   - Contains two files:
-    1. [Regression.py][regression]: Python file containing code used for data modeling
+    1. [Regression.py][regression]: Python file containing code used for grouped regression model.
     2. [predictions.csv][predictions]: CSV containing dataset that contains U.S. counties with their predictions from the regression model.
 
 #### DATA_VISUALIZATION
@@ -61,14 +61,14 @@
 
 #### Step 3: Clean/ Transform Data
   - This was done using MySQL Workbench. I wrote queries to :
-    - remove missing data
-    - generate new columns (either by using mathematical formulas or manipulating strings)
+    - remove rows with missing data
+    - generate new columns to derive insights(either by using mathematical formulas or manipulating strings)
     - reformat existing columns
   - Shown in *DATA_CLEANING* directory.
 
 #### Step 4: Data Modeling
-  - I wrote python scripts in Virtual Studio Code to generate a grouped regression model that predicts the average percent difference between average income and the income required to afford a home for each county by year up to the year 2030.
-  - Shown in *DATA_MODELING* directory.
+  - Virtual Studio Code was used to write python scripts that generate a grouped regression model that predicts the average percent difference between average income and the income required to afford a home bassed on the year for each U.S county. This model was used to create a table that contains a column indicating the year, another indicating the county, and a final column indicating the responce value from the regresion model. Each county is evaluated for the years 2022- 2030.
+  - Shown in *DATA_MINING* directory.
 
 #### Step 5: Data Visualization
   - Power BI was used to create an interactive dashboard to visualize and describe key insights and trends identified by step 3 and 4.
@@ -129,8 +129,8 @@ MIT - read license [here.][license]
 [FINAL_DATA]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/tree/main/FINAL_DATA
 [piv_income]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/blob/main/FINAL_DATA/piv_income.csv
 [DATA_MODELING]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/tree/main/DATA_MODELING
-[regression]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/blob/main/DATA_MODELING/Regression.py
-[predictions]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/blob/main/DATA_MODELING/predictions.csv
+[regression]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/blob/main/DATA_MINING/Regression.py
+[predictions]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/blob/main/DATA_MINING/predictions.csv
 [License]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/blob/main/LICENSE
 [sales_initial]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/blob/main/INITIAL_DATA/county_sales.csv
 [sales_final]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/blob/main/FINAL_DATA/sales.csv
