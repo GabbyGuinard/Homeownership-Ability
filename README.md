@@ -3,9 +3,10 @@
 <p align="center">
   <a href="#Objective">Objective</a> •
   <a href="#About the Dataset">About the Dataset</a> •
-  <a href="#Repository Directories">Repository Directoriese</a> •
+  <a href="#Repository Directories">Repository Directories</a> •
   <a href="#Analysis Steps">Analysis Steps</a> •
   <a href="#Results">Results</a> •
+  <a href="#License">License</a>
 </p>
 
 ## Objective
@@ -68,7 +69,15 @@ Two datasets were utilized for this analysis.
   - Power BI was used to create an interactive dashboard to visualize and describe key insights and trends identified by step 3 and 4.
 
 
-     
+## Results
+- The U.S. tends to be more affordable (in terms of income vs. home price) as you move further inland.
+- As the years go on, more and more counties' incomes are not keeping up with the inflation of home sales prices.
+- The percent difference between average income and the income needed to afford a home is trending towards below zero (average < needed income) as we look towards the future. This is already the reality for most coastal and western counties.
+- As of 2021, the average income from all U.S. counties were enough to buy a home (based on median U.S. home price). However, this varies widely across counties in the U.S.
+[![dashboard_img]][dashboard_link]
+
+## License
+MIT - read license [here.](license)
   
 
 
@@ -96,6 +105,7 @@ Two datasets were utilized for this analysis.
   <!-- Image Links -->
 [Header_icon]: RESOURCES/readmee_icon.jpg
 [proj_steps]: RESOURCES/analysis_steps.jpg
+[dashboard_img]: RESOURCES/powerBI_screenshot.jpg
 
 <!-- External Links -->
 [dashboard_link]: https://app.powerbi.com/view?r=eyJrIjoiNGY1MGI1MGUtMTEwZC00ZTI2LWIyYjctMGFmODRmZjc2ZDljIiwidCI6ImI1ZWI4OTAyLWRlNTctNGUyZS05YTUxLTI0MWNhZmFiYTE0NCJ9
@@ -114,3 +124,4 @@ Two datasets were utilized for this analysis.
 [DATA_MODELING]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/tree/main/DATA_MODELING
 [regression]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/blob/main/DATA_MODELING/Regression.py
 [predictions]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/blob/main/DATA_MODELING/predictions.csv
+[License]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/blob/main/LICENSE
