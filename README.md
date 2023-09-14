@@ -2,16 +2,17 @@
 ---
 <p align="center">
   <a href="#Objective">Objective</a> •
-  <a href="##About the Dataset">About the Dataset</a> •
-  <a href="#Repository Directories">Repository Directories</a> •
-  <a href="#Analysis Steps">Analysis Steps</a> •
+  <a href="#Dataset">Dataset</a> •
+  <a href="#Directories">Directories</a> •
+  <a href="#Procedure">Procedure</a> •
   <a href="#Results">Results</a> •
+  <a href="#License">License</a>
 </p>
 
 ## Objective
 - This report seeks to understand the severity of the housing crisis in the U.S. It uses income and home price data to derive insights and identify trends that showcase significant obsticles many Americans face in their pursuit of homeownership.
 
-## About the Datasets
+## Dataset
 - Two datasets were utilized for this analysis.
     1. County Income
        - This dataset was aquired from the U.S Beurau of Economic Analysis (BEA) webpage. It contains median incomes for the years 2019, 2020, and 2021 per county across the U.S.
@@ -22,7 +23,7 @@
        - Access the webpage [here.](sales_data_link)
        - View the dataset here.
     
-## Repository Directories
+## Directories
 
 #### INITIAL_DATA
 - Contains the two datasets that were used for analysis in csv format: [county_income](income.fixed) and county_sales
@@ -47,7 +48,7 @@
   - Contains markdown file with screenshot and link to Power BI interactive dashboard
 
 
-## Analysis Steps
+## Procedure
 ![Proj_steps][proj_steps]
 
 #### Step 1: Identify Goal/ Question
