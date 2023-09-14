@@ -21,23 +21,23 @@
     3. County Sales
        - This dataset was aquired from the realter.com data library webpage.
        - Access the webpage [here.][sales_data_link]
-       - View the dataset here.
+       - View the dataset [here.][sales_initial]
     
 ## Directories
 
 #### INITIAL_DATA
-- Contains the two datasets that were used for analysis in csv format: [county_income][income.fixed] and county_sales
+- Contains the two datasets that were used for analysis in csv format: [county_income][income.fixed] and [county_sales][sales_initial].
 - The county_income data set has two versions: the first is [county_income_OG.csv][income.OG], which is in its original form as directly downloaded from BEA. The Second is [county_income_fixed_cols.csv][income_fixed], which has the same data but the header has been edited to allow easier import into sql database.
   
 #### DATA_CLEANING
 - Contains two sql files:
-  1. [incomecode.sql][incomecode]: Shows the SQL code used to clean and transform the [County Income](income_fixed)) dataset.
+  1. [incomecode.sql][incomecode]: Shows the SQL code used to clean and transform the [County Income][income_fixed] dataset.
   2. [countysalescode.sql][salescode]: Shows the SQL code used to clean and transform the County Sales dataset.
  
 #### FINAL_DATA
   - Contains two data sets
     1. [piv_income.csv][piv_income]: Shows final County Income dataset after being cleaned/transformed
-    2. [final_sales.csv][final_csv]: Shows final County Sales dataset after being cleaned/transformed
+    2. [sales.csv][sales_final]: Shows final County Sales dataset after being cleaned/transformed
    
 #### DATA_MODELING
   - Contains two files:
@@ -79,7 +79,7 @@ Click on the screenshot below to access interactive version of dashboard:
 [![dashboard_img]][dashboard_link]
 
 ## License
-MIT - read license [here.](license)
+MIT - read license [here.][license]
   
 
 
@@ -127,3 +127,5 @@ MIT - read license [here.](license)
 [regression]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/blob/main/DATA_MODELING/Regression.py
 [predictions]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/blob/main/DATA_MODELING/predictions.csv
 [License]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/blob/main/LICENSE
+[sales_initial]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/blob/main/INITIAL_DATA/county_sales.csv
+[sales_final]: https://github.com/GabbyGuinard/Homeownership_Ability_Across_US/blob/main/FINAL_DATA/sales.csv
