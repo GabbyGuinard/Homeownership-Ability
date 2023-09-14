@@ -12,6 +12,7 @@
 ## Objective
 - This report seeks to understand the severity of the housing crisis in the U.S. It uses income and home price data to derive insights and identify trends that showcase significant obsticles many Americans face in their pursuit of homeownership.
 
+
 ## Dataset
 - Two datasets were utilized for this analysis.
     1. County Income
@@ -22,9 +23,9 @@
        - This dataset was aquired from the realter.com data library webpage.
        - Access the webpage [here.][sales_data_link]
        - View the dataset [here.][sales_initial]
-    
-## Directories
 
+  
+## Directories
 #### INITIAL_DATA
 - Contains the two datasets that were used for analysis in csv format: [county_income][income_fixed] and [county_sales][sales_initial].
 - The county_income data set has two versions: the first is [county_income_OG.csv][income_OG], which is in its original form as directly downloaded from BEA. The Second is [county_income_fixed_cols.csv][income_fixed], which has the same data but the header has been edited to allow easier import into sql database.
@@ -36,12 +37,12 @@
  
 #### FINAL_DATA
   - Contains two data sets
-    1. [piv_income.csv][piv_income]: Shows final County Income dataset after being cleaned/transformed
-    2. [sales.csv][sales_final]: Shows final County Sales dataset after being cleaned/transformed
+    1. [piv_income.csv][piv_income]: Shows County Income dataset after being cleaned/transformed
+    2. [sales.csv][sales_final]: Shows County Sales dataset after being cleaned/transformed
    
-#### DATA_MODELING
+#### DATA_MINING
   - Contains two files:
-    1. [Regression.py][regression]: Python file containing code that is used to create grouped regression model to predict housing affordability up to 2030.
+    1. [Regression.py][regression]: Python file containing code used for data modeling
     2. [predictions.csv][predictions]: CSV containing dataset that contains U.S. counties with their predictions from the regression model.
 
 #### DATA_VISUALIZATION
@@ -63,13 +64,15 @@
     - remove missing data
     - generate new columns (either by using mathematical formulas or manipulating strings)
     - reformat existing columns
-  - Shown in *DATA_CLEANING* directory
+  - Shown in *DATA_CLEANING* directory.
 
 #### Step 4: Data Modeling
   - I wrote python scripts in Virtual Studio Code to generate a grouped regression model that predicts the average percent difference between average income and the income required to afford a home for each county by year up to the year 2030.
+  - Shown in *DATA_MODELING* directory.
 
 #### Step 5: Data Visualization
   - Power BI was used to create an interactive dashboard to visualize and describe key insights and trends identified by step 3 and 4.
+  - Aceess dashboard either from *DATA_VISUALIZATION* directory or from the 'Results' section below.
 
 
 ## Results
